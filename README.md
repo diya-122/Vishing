@@ -59,10 +59,10 @@ Confidence Calculation: Probability scores indicate prediction confidence
 Risk Assessment: Cumulative scoring in live mode triggers alerts
 📁 Project Structure
 voiceshield-mvp/
-├── app.py                      # Main Streamlit application
-├── requirements.txt            # Python dependencies
-├── deepfake_voice_model.pkl   # Pre-trained ML model (required)
-└── README.md                  # This file
+├── app.py                      # Main Streamlit application<br>
+├── requirements.txt            # Python dependencies<br>
+├── deepfake_voice_model.pkl   # Pre-trained ML model (required)<br>
+└── README.md                  # This file<br>
 ⚙️ Technical Details
 Audio Processing: 16kHz sampling rate, 3-second duration clips
 Features: 13 MFCC coefficients averaged across time
