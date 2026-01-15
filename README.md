@@ -3,40 +3,40 @@
 VoiceShield is a deepfake voice detection application that analyzes audio files to identify AI-generated or synthetic voices. Built with Streamlit and machine learning, it provides real-time analysis and risk assessment for audio authenticity.<br>
 
 🎯 Features
-Audio Upload Detection: Upload WAV/MP3 files for instant deepfake analysis
-Live Call Simulation: Simulate real-time call monitoring with chunk-by-chunk analysis
-Confidence Scoring: Get confidence levels for each prediction
-Risk Assessment: Automatic risk level categorization (LOW/HIGH)
-Visual Feedback: Progress bars, audio playback, and color-coded results
-🚀 Installation
-Prerequisites
-Python 3.7 or higher
-pip package manager
-Setup Steps
-Clone or download the repository
+Audio Upload Detection: Upload WAV/MP3 files for instant deepfake analysis<br>
+Live Call Simulation: Simulate real-time call monitoring with chunk-by-chunk analysis<br>
+Confidence Scoring: Get confidence levels for each prediction<br>
+Risk Assessment: Automatic risk level categorization (LOW/HIGH)<br>
+Visual Feedback: Progress bars, audio playback, and color-coded results<br>
+🚀 Installation<br>
+Prerequisites<br>
+Python 3.7 or higher<br>
+pip package manager<br>
+Setup Steps<br>
+Clone or download the repository<br>
 
-cd voiceshield-mvp
-Install required packages
+cd voiceshield-mvp<br>
+Install required packages<br>
 
-pip install -r requirements.txt
-Ensure model file exists
+pip install -r requirements.txt<br>
+Ensure model file exists<br>
 
-The application requires deepfake_voice_model.pkl in the project directory
-This is a pre-trained machine learning model for voice classification
-📦 Requirements
-streamlit
-joblib
-numpy
-librosa
-soundfile
-See requirements.txt for complete list with versions.
+The application requires deepfake_voice_model.pkl in the project directory<br>
+This is a pre-trained machine learning model for voice classification<br>
+📦 Requirements<br>
+streamlit<br>
+joblib<br>
+numpy<br>
+librosa<br>
+soundfile<br>
+See requirements.txt for complete list with versions.<br>
 
-🎮 Usage
-Running the Application
-Start the Streamlit app:
+🎮 Usage<br>
+Running the Application<br>
+Start the Streamlit app:<br>
 
-streamlit run app.py
-The application will open in your default web browser at http://localhost:8501
+streamlit run app.py<br>
+The application will open in your default web browser at http://localhost:8501<br>
 
 Using Audio Upload Detection<br>
 Navigate to the "🎧 Audio Upload Detection" tab<br>
