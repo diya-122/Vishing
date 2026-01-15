@@ -38,33 +38,33 @@ Start the Streamlit app:
 streamlit run app.py
 The application will open in your default web browser at http://localhost:8501
 
-Using Audio Upload Detection
-Navigate to the "🎧 Audio Upload Detection" tab
-Click "Browse files" to upload a WAV or MP3 file
-Wait for the analysis to complete
-View the results:
-✅ REAL HUMAN VOICE - Low risk, authentic audio
-⚠️ FAKE VOICE DETECTED - High risk, potential deepfake
-Using Live Call Simulation
-Navigate to the "📞 Live Call Simulation" tab
-Upload a call audio file (WAV or MP3)
-Click "▶️ Start Call Simulation"
-The system will analyze the audio in 3-second chunks
-Monitor the real-time risk score
-If risk score exceeds 2.0, an alert is triggered
-🔬 How It Works
-Feature Extraction: Audio is processed using MFCC (Mel-frequency cepstral coefficients) analysis
-Model Prediction: Pre-trained ML model classifies voice as real or fake
-Confidence Calculation: Probability scores indicate prediction confidence
-Risk Assessment: Cumulative scoring in live mode triggers alerts
-📁 Project Structure
-voiceshield-mvp/
+Using Audio Upload Detection<br>
+Navigate to the "🎧 Audio Upload Detection" tab<br>
+Click "Browse files" to upload a WAV or MP3 file<br>
+Wait for the analysis to complete<br>
+View the results:<br>
+✅ REAL HUMAN VOICE - Low risk, authentic audio<br>
+⚠️ FAKE VOICE DETECTED - High risk, potential deepfake<br>
+Using Live Call Simulation<br>
+Navigate to the "📞 Live Call Simulation" tab<br>
+Upload a call audio file (WAV or MP3)<br>
+Click "▶️ Start Call Simulation"<br>
+The system will analyze the audio in 3-second chunks<br>
+Monitor the real-time risk score<br>
+If risk score exceeds 2.0, an alert is triggered<br>
+🔬 How It Works<br>
+Feature Extraction: Audio is processed using MFCC (Mel-frequency cepstral coefficients) analysis<br>
+Model Prediction: Pre-trained ML model classifies voice as real or fake<br>
+Confidence Calculation: Probability scores indicate prediction confidence<br>
+Risk Assessment: Cumulative scoring in live mode triggers alerts<br>
+📁 Project Structure<br>
+voiceshield-mvp/<br>
 ├── app.py                      # Main Streamlit application<br>
 ├── requirements.txt            # Python dependencies<br>
 ├── deepfake_voice_model.pkl   # Pre-trained ML model (required)<br>
 └── README.md                  # This file<br>
-⚙️ Technical Details
-Audio Processing: 16kHz sampling rate, 3-second duration clips
-Features: 13 MFCC coefficients averaged across time
-Model: Scikit-learn based classifier (loaded via joblib)
-Chunk Size: 3-second windows for live simulation
+⚙️ Technical Details<br>
+Audio Processing: 16kHz sampling rate, 3-second duration clips<br>
+Features: 13 MFCC coefficients averaged across time<br>
+Model: Scikit-learn based classifier (loaded via joblib)<br>
+Chunk Size: 3-second windows for live simulation<br>
