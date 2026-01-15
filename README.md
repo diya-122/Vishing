@@ -1,6 +1,6 @@
 # Vishing
 🔐 VoiceShield MVP
-VoiceShield is a deepfake voice detection application that analyzes audio files to identify AI-generated or synthetic voices. Built with Streamlit and machine learning, it provides real-time analysis and risk assessment for audio authenticity.
+VoiceShield is a deepfake voice detection application that analyzes audio files to identify AI-generated or synthetic voices. Built with Streamlit and machine learning, it provides real-time analysis and risk assessment for audio authenticity.<br>
 
 🎯 Features
 Audio Upload Detection: Upload WAV/MP3 files for instant deepfake analysis
