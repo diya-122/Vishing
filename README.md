@@ -10,13 +10,13 @@ Existing fraud detection systems largely focus on text-based threats and lack vo
 
 VoiceShield provides an AI-driven solution that:
 
-Analyzes uploaded call audio files
+*Analyzes uploaded call audio files
 
-Extracts meaningful voice features
+*Extracts meaningful voice features
 
-Uses a trained machine learning model to detect spoofed voices
+*Uses a trained machine learning model to detect spoofed voices
 
-Displays confidence scores and risk levels to assist users in identifying fraudulent calls
+*Displays confidence scores and risk levels to assist users in identifying fraudulent calls
 
 The system is deployed as a web-based application, making it easily accessible and user-friendly.
 
@@ -76,41 +76,47 @@ Simulate live call monitoring
 View confidence scores and risk levels in real time
 
 ▶️ How to Run the Application Locally
+
 1️⃣ Clone the Repository
+
 git clone https://github.com/<your-username>/<your-repo-name>.git
+
 cd <your-repo-name>
+
 2️⃣ Create a Virtual Environment (Optional but Recommended)
+
 3️⃣ Install Dependencies
+
 pip install -r requirements.txt
+
 4️⃣ Run the Streamlit App
+
 streamlit run app.py
+
 5️⃣ Open in Browser
+
 http://localhost:8501
 
 🛠 Tech Stack
-Programming Language
+Programming Language: Python
 
-Python
+Machine Learning & Audio Processing:
 
-Machine Learning & Audio Processing
+*Librosa
 
-Librosa
+*Scikit-learn
 
-Scikit-learn
+*NumPy
 
-NumPy
+*Joblib
 
-Joblib
+Web Framework & Deployment:
 
-Web Framework & Deployment
+*Streamlit
 
-Streamlit
+*Streamlit Cloud
 
-Streamlit Cloud
-
-Dataset
-
-ASVspoof2019_LA
+Dataset: ASVspoof2019_LA
 
 📂 Project Structure
 vishing/
