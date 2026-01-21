@@ -118,15 +118,15 @@ Web Framework & Deployment:
 
 Dataset: ASVspoof2019_LA
 
-📂 Project Structure
-vishing/
-│
-├── app.py                     # Main Streamlit application
-├── deepfake_voice_model.pkl   # Trained ML model
-├── requirements.txt           # Required dependencies
-├── bonafide audio samples     # Sample real voice files
-├── spoof audio samples        # Sample fake voice files
-└── call simulation samples    # Audio files for live call simulation
+📂 Project Structure<br>
+vishing/<br>
+│<br>
+├── app.py                     # Main Streamlit application<br>
+├── deepfake_voice_model.pkl   # Trained ML model<br>
+├── requirements.txt           # Required dependencies<br>
+├── bonafide audio samples     # Sample real voice files<br>
+├── spoof audio samples        # Sample fake voice files<br>
+└── call simulation samples    # Audio files for live call simulation<br>
 
 📈 Results
 
